@@ -1,0 +1,4 @@
+
+export const ROUTE_HOME = "ROUTE_HOME"
+export const ROUTE_FILEUPLOAD = "ROUTE_FILEUPLOAD"
+export const ROUTE_REPORTS = "ROUTE_REPORTS"
