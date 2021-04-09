@@ -9,21 +9,28 @@ const Home = () => {
     return (
         <div className="container col-8 mt-4">
             <div className="jumbotron">
-                <h1 className="display-3">Hello!</h1>
-                <p className="lead my-3">
-                    This is a tool that enables the detection of plagiarism in JavaScript
-                    source code.
-                </p>
-                <hr className="pt-4" />
-                <p>Upload your file for analysis here:</p>
                 <p className="lead pt-2">
-                    <a
-                        className="btn btn-primary"
-                        onClick={() => switchRoute(dispatch, ROUTE_FILEUPLOAD)}
-                        role="button"
-                    >
-                        Upload file
-                    </a>
+                <fieldset>
+                    <p> Tryb pracy: </p>
+                    <div class="form-group">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input"/>
+                            <label class="custom-control-label" for="customRadio1"> energooszczędny </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input"/>
+                            <label class="custom-control-label" for="customRadio2"> kompaktowy </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input"/>
+                            <label class="custom-control-label" for="customRadio3"> regeneracyjny </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input"/>
+                            <label class="custom-control-label" for="customRadio4"> energochłonny </label>
+                        </div>
+                    </div>
+                </fieldset>
                 </p>
             </div>
         </div>
