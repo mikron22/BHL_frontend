@@ -17,7 +17,7 @@ const NavigationBar = () => {
                 role="button"
                 onClick={() => switchRoute(dispatch, ROUTE_HOME)}
             >
-                NAZWA
+                GIGA KOKSY
         </a>
         </nav>
     )

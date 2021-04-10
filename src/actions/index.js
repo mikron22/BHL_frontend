@@ -1,7 +1,8 @@
 import switchRoute from "./route"
 import { login, logout } from "./auth"
 import changeMode from "./mode"
-import {weather} from "./weather";
+import {changeWeather} from "./weather";
+import changeHeating from "./heating"
 
-export { switchRoute, login, logout, changeMode, weather }
+export { switchRoute, login, logout, changeMode, changeWeather, changeHeating }
 
