@@ -4,7 +4,6 @@ const FileUpload = () => {
         <div className="container col-8 mt-4">
             <div className="jumbotron py-4">
                 <div className="form-group">
-                    <h1>Upload file</h1>
                     <p className="lead mt-5 mb-2">Choose a file you want to upload:</p>
                     <div className="custom-file col-7 mt-4">
                         <input
