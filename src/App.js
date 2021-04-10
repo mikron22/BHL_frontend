@@ -1,4 +1,4 @@
-import "bootswatch/dist/journal/bootstrap.min.css"
+import "bootswatch/dist/litera/bootstrap.min.css"
 import { useSelector } from "react-redux"
 import { NavigationBar, Login, Home, FileUpload, Reports } from "./components"
 import { ROUTE_HOME, ROUTE_FILEUPLOAD, ROUTE_REPORTS } from "./routeConstants"
